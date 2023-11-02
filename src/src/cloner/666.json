@@ -1,1 +1,3423 @@
-
+{
+    "name": "1° Delegacia da Polícia Rodoviária Federal | PRF",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Guarita",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Administração",
+                        "allow": "392515785588561",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀├•bem-vindos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Guarita",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "70904273369169"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀├•apresentação",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Guarita",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "70904273367121"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀├•atualizar-funcional",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Guarita",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "70904273434705"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "0",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💳├•cgcom",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Guarita",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "70904273236049"
+                            },
+                            {
+                                "roleName": "Diretor Geral Substituto",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretor Geral",
+                                "allow": "0",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💳├•cfp",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Guarita",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "70904273369169"
+                            },
+                            {
+                                "roleName": "Diretor Geral Substituto",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretor Geral",
+                                "allow": "0",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💳├•chat-público",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Guarita",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Diretor Geral",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "70526316228689"
+                            },
+                            {
+                                "roleName": "Diretor Geral Substituto",
+                                "allow": "0",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Polícia Rodoviária Federal",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🏢┊institucional",
+                        "parent": "Polícia Rodoviária Federal",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "📢┊diz-aí",
+                        "parent": "Polícia Rodoviária Federal",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Comunicação Interna",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Diretoria Geral PRF",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Comunicação Interna",
+                        "permissions": [
+                            {
+                                "roleName": "Diretoria Executiva | DIREX",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretor Geral",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "512",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Diretoria Geral | DG",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretor Geral Substituto",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretoria de Administração e Logística | DIAD",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1536",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Administração",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretoria de Operações | DIOP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Corregedoria Geral e Controle Interno | CGCI",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🏢┊comunicação-direção",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Comunicação Interna",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Diretoria Geral | DG",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretor Geral Substituto",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Secretário de Segurança Pública",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Governador",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretoria Executiva | DIREX",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretoria de Administração e Logística | DIAD",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Corregedoria Geral e Controle Interno | CGCI",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Desembargador",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretor Geral",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretoria de Operações | DIOP",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Diretoria Executiva | DIREX",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Comunicação Interna",
+                        "permissions": [
+                            {
+                                "roleName": "Diretor Geral Substituto",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Diretoria Executiva | DIREX",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretor Geral",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretoria Geral | DG",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Diretoria de Operações | DIOP",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Comunicação Interna",
+                        "permissions": [
+                            {
+                                "roleName": "Diretor Geral",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Diretoria de Operações | DIOP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretor Geral Substituto",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Diretoria de Administração e Logística | DIAD",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Comunicação Interna",
+                        "permissions": [
+                            {
+                                "roleName": "Diretor Geral Substituto",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Diretoria de Administração e Logística | DIAD",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretor Geral",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Reunião PRF",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Comunicação Interna",
+                        "permissions": [
+                            {
+                                "roleName": "Governador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prefeito",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Co-irmãs",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Vereador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Secretário de Segurança Pública",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Reunião Co-irmãs",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Comunicação Interna",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Governador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prefeito",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Vereador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Co-irmãs",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Secretário de Segurança Pública",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Aguardando Patrulhamento",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Comunicação Interna",
+                        "permissions": [
+                            {
+                                "roleName": "Governador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Vereador",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prefeito",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Secretário de Segurança Pública",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Co-irmãs",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Helicrash",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Comunicação Interna",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "╭────  📋 ✦ SETORES PRF",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚔┊expedientes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭────  📋 ✦ SETORES PRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Patrulha",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊ALFA",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊BRAVO",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊CHARLIE",
+                        "bitrate": 64000,
+                        "userLimit": 3,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊DELTA",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊ECHO",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊FOX",
+                        "bitrate": 64000,
+                        "userLimit": 3,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊GOLF",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊HOTEL",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊JULIET",
+                        "bitrate": 64000,
+                        "userLimit": 3,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊INDIA",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊KILO",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊MIKE",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊NOVEMBER",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊OSCAR",
+                        "bitrate": 64000,
+                        "userLimit": 3,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚔┊GMR I",
+                        "bitrate": 64000,
+                        "userLimit": 3,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚔┊GMR II",
+                        "bitrate": 64000,
+                        "userLimit": 3,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚔┊GMT I",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚔┊GMT II",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "Patrulha",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Especializadas",
+                "permissions": [
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚔┊GPT I",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "Especializadas",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚔┊GPT II",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "Especializadas",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚔┊GPT III",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "Especializadas",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊VBOT GPT I",
+                        "bitrate": 64000,
+                        "userLimit": 8,
+                        "parent": "Especializadas",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊VBOT GPT II",
+                        "bitrate": 64000,
+                        "userLimit": 8,
+                        "parent": "Especializadas",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊VBOT NOE I",
+                        "bitrate": 64000,
+                        "userLimit": 8,
+                        "parent": "Especializadas",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚓┊VBOT NOE II",
+                        "bitrate": 64000,
+                        "userLimit": 8,
+                        "parent": "Especializadas",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "SSA",
+                "permissions": [
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚁┊AS-350 ESQUILO",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "SSA",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚁┊BELL 412",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "SSA",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🚁┊BELL 407",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "SSA",
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Social",
+                "permissions": [
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📸┊fotos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Social",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎥┊clips",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Social",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📹┊transmissões",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Social",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬┊chat-prf",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Social",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💻┊modificações",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Social",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💻┊sugestões",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Social",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "╭──── CORREGEDORIA",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Administração",
+                        "allow": "410116561567569",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "corregedoria-denuncias",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── CORREGEDORIA",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Administração",
+                                "allow": "410116561567569",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "SETOR INTERNO",
+                "permissions": [
+                    {
+                        "roleName": "Administração",
+                        "allow": "410116561567569",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "128637288840017"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📃┊regras-prf",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SETOR INTERNO",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📰┊boletim-interno",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SETOR INTERNO",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "128637288840017"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Administração",
+                                "allow": "410116561567569",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⭐┊hierarquia",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SETOR INTERNO",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Administração",
+                                "allow": "410116561567569",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1115136",
+                                "deny": "57183259591424"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📢┊avisos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SETOR INTERNO",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Governador",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Secretário de Segurança Pública",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📚├•modulação",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SETOR INTERNO",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "71453492377680"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "├•promoções",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SETOR INTERNO",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❌├•advertências",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SETOR INTERNO",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❌├•ausências",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SETOR INTERNO",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❌├•desligamentos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SETOR INTERNO",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Portal PRF",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚔├•viaturas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Portal PRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚁├•aeronaves",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Portal PRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔫├•armamentos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Portal PRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "👮🏿♂├•fardamentos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Portal PRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🌁├•area-da-delegacia",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Portal PRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🏘├•favelas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Portal PRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "registro-de-ocorrencia",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Portal PRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "fotografias",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Portal PRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "╭──── RUMB",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "estoque",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── RUMB",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "RUMB",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "instruções-de-uso",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── RUMB",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "acautelamento",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── RUMB",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "reabastecimento",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── RUMB",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "retirada",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── RUMB",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "devolução",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── RUMB",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "perda",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── RUMB",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "log-baú",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── RUMB",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "RUMB",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Fiscalização",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📘┊manual-de-fiscalização",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Fiscalização",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📋┊auto-de-infração",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Fiscalização",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Pátio",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🛻┊registro-de-apreensão-de-veiculos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Pátio",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🛻┊registro-de-liberação",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Pátio",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "UniPRF",
+                "permissions": [
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📃┊cfp",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "UniPRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📃┊edital-cursos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "UniPRF",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Policial Rodoviário Federal | PRF",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "╭──── 🏍 GMT E GMR",
+                "permissions": [
+                    {
+                        "roleName": "Diretoria de Administração e Logística | DIAD",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria Executiva | DIREX",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Grupo de Motociclismo Regional | GMR",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria Geral | DG",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretor Geral Substituto",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Grupo de Motociclismo Tático | GMT",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Diretoria de Operações | DIOP",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretor Geral",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Curso de Formação ao Motociclista | CFMT",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚔vtr-moto",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🏍 GMT E GMR",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Grupo de Motociclismo Tático | GMT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Curso de Formação ao Motociclista | CFMT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Grupo de Motociclismo Regional | GMR",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚨regras-moto",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🏍 GMT E GMR",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Curso de Formação ao Motociclista | CFMT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Grupo de Motociclismo Regional | GMR",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Grupo de Motociclismo Tático | GMT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❌adv-moto",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🏍 GMT E GMR",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Grupo de Motociclismo Regional | GMR",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Curso de Formação ao Motociclista | CFMT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Grupo de Motociclismo Tático | GMT",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦺fardamento-moto",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🏍 GMT E GMR",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Curso de Formação ao Motociclista | CFMT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "chat-moto",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🏍 GMT E GMR",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Grupo de Motociclismo Tático | GMT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Curso de Formação ao Motociclista | CFMT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Grupo de Motociclismo Regional | GMR",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "SSA",
+                "permissions": [
+                    {
+                        "roleName": "Diretoria Geral | DG",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretor Geral",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria de Operações | DIOP",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria de Administração e Logística | DIAD",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Curso de Piloto Policial de Aeronave de Asa Rotativa | CPPAR",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretor Geral Substituto",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Diretoria Executiva | DIREX",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚔aeronave-ssa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SSA",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Curso de Piloto Policial de Aeronave de Asa Rotativa | CPPAR",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📃┊estatuto-ssa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SSA",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Diretor Geral Substituto",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretor Geral",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretoria de Operações | DIOP",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretoria de Administração e Logística | DIAD",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Curso de Piloto Policial de Aeronave de Asa Rotativa | CPPAR",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Diretoria Geral | DG",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Diretoria Executiva | DIREX",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚨regras-ssa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SSA",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Curso de Piloto Policial de Aeronave de Asa Rotativa | CPPAR",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❌adv-ssa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SSA",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Curso de Piloto Policial de Aeronave de Asa Rotativa | CPPAR",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦺fardamento-ssa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SSA",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Curso de Piloto Policial de Aeronave de Asa Rotativa | CPPAR",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "chat-ssa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "SSA",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Curso de Piloto Policial de Aeronave de Asa Rotativa | CPPAR",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "╭──── 🚔 Grupamento de Policiamento Tático | GPT",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Diretor Geral",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria Executiva | DIREX",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Policial Rodoviário Federal | PRF",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria de Operações | DIOP",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretor Geral Substituto",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria Geral | DG",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria de Administração e Logística | DIAD",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚔vtr-gpt",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🚔 Grupamento de Policiamento Tático | GPT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Grupamento de Policiamento Tático | GPT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚔equipes-gpt",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🚔 Grupamento de Policiamento Tático | GPT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Grupamento de Policiamento Tático | GPT",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚨regras-gpt",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🚔 Grupamento de Policiamento Tático | GPT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Grupamento de Policiamento Tático | GPT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❌adv-gpt",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🚔 Grupamento de Policiamento Tático | GPT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Grupamento de Policiamento Tático | GPT",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🦺fardamento-gpt",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🚔 Grupamento de Policiamento Tático | GPT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Grupamento de Policiamento Tático | GPT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "chat-gpt-geral",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🚔 Grupamento de Policiamento Tático | GPT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Grupamento de Policiamento Tático | GPT",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "chat-gpt-1",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🚔 Grupamento de Policiamento Tático | GPT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Grupamento de Policiamento Tático | GPT",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "chat-gpt-2",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "╭──── 🚔 Grupamento de Policiamento Tático | GPT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Grupamento de Policiamento Tático | GPT",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "NOE",
+                "permissions": [
+                    {
+                        "roleName": "Núcleo de Operações Especiais | NOE",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria de Administração e Logística | DIAD",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria de Operações | DIOP",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretor Geral Substituto",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretor Geral",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria Geral | DG",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Diretoria Executiva | DIREX",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "chat-noe",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "NOE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Núcleo de Operações Especiais | NOE",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "moderator-only",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "Governador",
+            "color": "#71368a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 43,
+            "isEveryone": false
+        },
+        {
+            "name": "Secretário de Segurança Pública",
+            "color": "#a84300",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 42,
+            "isEveryone": false
+        },
+        {
+            "name": "Prefeito",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 41,
+            "isEveryone": false
+        },
+        {
+            "name": "Vereador",
+            "color": "#e91e63",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 40,
+            "isEveryone": false
+        },
+        {
+            "name": "Co-irmãs",
+            "color": "#206694",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 39,
+            "isEveryone": false
+        },
+        {
+            "name": "Administração",
+            "color": "#f1c40f",
+            "hoist": false,
+            "permissions": "420013441810431",
+            "mentionable": true,
+            "position": 38,
+            "isEveryone": false
+        },
+        {
+            "name": "Diretor Geral",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 37,
+            "isEveryone": false
+        },
+        {
+            "name": "Diretor Geral Substituto",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 36,
+            "isEveryone": false
+        },
+        {
+            "name": "Diretoria Geral | DG",
+            "color": "#777777",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 35,
+            "isEveryone": false
+        },
+        {
+            "name": "Diretoria Executiva | DIREX",
+            "color": "#777777",
+            "hoist": true,
+            "permissions": "32768",
+            "mentionable": true,
+            "position": 34,
+            "isEveryone": false
+        },
+        {
+            "name": "Diretoria de Operações | DIOP",
+            "color": "#777777",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "Diretoria de Administração e Logística | DIAD",
+            "color": "#777777",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "Corregedoria Geral e Controle Interno | CGCI",
+            "color": "#777777",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "Agente Especial",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "Agente 1° Classe",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "Agente 2° Classe",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "Agente 3° Classe",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "Policial Rodoviário Federal | PRF",
+            "color": "#f1c40f",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "Estagiário",
+            "color": "#f1c40f",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "RUMB",
+            "color": "#e67e22",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "Coordenador - SSA",
+            "color": "#e67e22",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "Coordenador - MOTO",
+            "color": "#e67e22",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "Coordenador - GPT",
+            "color": "#e67e22",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "Núcleo de Operações Especiais | NOE",
+            "color": "#0f0f30",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "Grupamento de Policiamento Tático | GPT",
+            "color": "#0000ff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Grupo de Motociclismo Regional | GMR",
+            "color": "#002bff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "Grupo de Motociclismo Tático | GMT",
+            "color": "#0000ff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Curso de Operações Temáticas de Combate ao Crime | COTEM",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "Curso de Combate às Infrações de Menor Potencial Ofensivo | CTCO",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "Curso de Operações Especiais | COESP",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "Técnicas Policiais de Combate ao Crime | TPCC",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "Curso de Formação ao Motociclista | CFMT",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "Estágio de Policiamento Tático | EPT",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "Curso de Piloto Policial de Aeronave de Asa Rotativa | CPPAR",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "Curso Avançado de Fiscalização de Trânsito | CAFIT",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "Curso de Atendimento Pré-Hospitalar | APH",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "Curso de Resposta Tática | CRT",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "Desembargador",
+            "color": "#ff9f00",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "❌ ADV 1/3",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "❌ ADV 2/3",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "❌ ADV 3/3",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "Visitantes",
+            "color": "#e74c3c",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "533235326373441",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1698885246779,
+    "guildID": "1142083126823223306",
+    "id": "1169434227104677888",
+    "iconURL": "https://cdn.discordapp.com/icons/1142083126823223306/3a0604d4ead384538d7d06c8852f37f0.webp"
+}
